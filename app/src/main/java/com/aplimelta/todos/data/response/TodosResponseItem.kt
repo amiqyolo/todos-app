@@ -1,8 +1,8 @@
-package com.aplimelta.todos.data.remote.response
+package com.aplimelta.todos.data.response
 
 import com.google.gson.annotations.SerializedName
 
-data class TodoResponseDetailItem(
+data class TodosResponseItem(
 
 	@field:SerializedName("id")
 	val id: Int,
