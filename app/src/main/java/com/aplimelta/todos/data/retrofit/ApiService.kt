@@ -7,10 +7,10 @@ import retrofit2.http.Path
 
 interface ApiService {
     @GET("todos")
-    fun getTodos(): Response<List<TodosResponseItem>>
+    suspend fun getTodos(): Response<List<TodosResponseItem>>
 
     @GET("todos/{id}")
-    fun getTodoItem(
+    suspend fun getTodoItem(
         @Path("id") id: String
     ): Response<TodosResponseItem>
 }
