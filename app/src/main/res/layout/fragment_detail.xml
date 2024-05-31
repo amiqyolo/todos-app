@@ -18,8 +18,7 @@
             android:layout_height="?attr/actionBarSize"
             android:theme="@style/ThemeOverlay.Material3.Light"
             app:layout_scrollFlags="scroll|snap|enterAlways"
-            app:popupTheme="@style/ThemeOverlay.Material3.Dark"
-            app:title="@string/app_name" />
+            app:popupTheme="@style/ThemeOverlay.Material3.Dark" />
 
     </com.google.android.material.appbar.AppBarLayout>
 

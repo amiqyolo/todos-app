@@ -46,6 +46,7 @@ class DetailFragment : Fragment() {
                             val data = result.data
                             Toast.makeText(requireContext(), "data:${data}", Toast.LENGTH_LONG).show()
                             binding?.apply {
+                                toolbar.title = data.title
                                 itemDetailTitle.text = data.title
                                 itemDetailId.text = data.id.toString()
                                 itemDetailUserid.text = data.userId.toString()
